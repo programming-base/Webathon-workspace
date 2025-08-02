@@ -1,0 +1,30 @@
+    .heading {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 800;
+      color: #fff8dc;
+      /* border-right: 2px solid #facc15; */
+      white-space: normal;
+      contain: content;
+      overflow:initial;
+      width: 0;
+      -webkit-text-stroke: 0.8px #facc15;
+      animation:
+        typing 3.5s steps(36, end) forwards;
+      will-change: width, border-color;
+      transition: color 0.3s ease;
+    }
+    .blink{
+        height: clamp(2.5rem,6vw,4rem);
+        border-right: 1px solid #facc15;
+        animation: blink-caret .5s step-end infinite;
+        will-change: width, border-color;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 36ch }
+    }
+
+    @keyframes blink-caret {
+      0%, 100% { border-color: transparent }
+      50% { border-color: #facc15 }
+    }

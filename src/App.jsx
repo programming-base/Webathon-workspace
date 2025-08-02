@@ -1,10 +1,11 @@
 import './App.css'
+import MainBody from './Components/Mainbody'
+import NavBar from './Components/Navbar'
 function App() {
   return (
     <>
-      <div className='bg-black text-4xl text-white'>
-        hello
-        </div>
+    <NavBar/>
+    <MainBody/>
     </>
   )
 }
