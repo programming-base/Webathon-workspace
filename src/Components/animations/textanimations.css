@@ -1,6 +1,7 @@
 .text-style{
+  word-wrap: break-word;
     line-height: normal;
-  font-size: 4.5rem;
+  font-size: 4.3rem;
   font-weight: 700;
   color: rgb(255, 235, 176);
     -webkit-text-stroke: 2px rgb(234, 179, 8);
