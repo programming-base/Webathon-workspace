@@ -4,13 +4,14 @@
   max-width:100%;
   text-align: center;
 }
+/* Text style */
+
 /* hover effect on menu items */
 .menuwrapper {
   position: relative;
   height: 100%; /* Adjusted to fit all 4 layers */
   width: 100%;
 }
-
 .menu {
   border-radius: 1rem;
   font-size: 4rem;
@@ -83,81 +84,3 @@
 .fourthmenu:hover {
   background-color: #023ca1;
 }
-
-
-/* .menuwrapper {
-  position: relative;
-  width: 100%;
-}
-
-.menu {
-  border-radius: 1rem;
-  font-size: 2rem;
-  font-weight: 700;
-  width: 100%;
-  height: calc(100% / 3.7);
-  box-shadow: 0 0 3px 1px rgb(0, 0, 0);
-  transition: all 0.3s ease;
-  background-color: #facc15;
-}
-.menu-top{
-  position: relative;
-
-}
-.menu-middle1{
-  position:absolute;
-  top: 7rem;
-}
-.menu-middle2{
-  position:absolute;
-  top: 14rem;
-}
-.menu-middle3{
-  position:absolute;
-  top: 21rem;
-}
-/* Hover effect using parent */
-/*.menu-top:hover .menu-top{
-  height: calc(100% / 2.7);
-}
-.menu-top:hover + .menu-middle1{
-  height: calc(100% / 4.7);
-  top:7.5rem;
-} */
-.infinitemarquee {
- animation: infiniteMarquee 5s linear infinite;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-.auto-scroll {
-  animation: marquee 10s linear infinite;
-}
-
-@keyframes infiniteMarquee {
-  0% {
-    background-position-x:0 ;
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%)
-  }
-}
-
-
- animate-up
-  {
-  animation: slideUp 1s infinite;
-}
- @keyframes slideUp {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-100vh); }
-} 
-

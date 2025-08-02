@@ -1,0 +1,44 @@
+  .about-container {
+        max-width: 1000px;
+        margin: auto;
+        background-color: transparent;
+        padding: 40px;
+        border: 3px solid #facc15;
+        border-radius: 16px;
+        box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+        animation: popIn 0.8s ease forwards;
+        opacity: 0;
+        transform: scale(0.95);
+      }
+
+      .about-title {
+        font-size: 3rem;
+        color: #facc15;
+        margin-bottom: 24px;
+        text-align: center;
+      }
+
+      .about-text {
+        font-size: 1.2rem;
+        line-height: 1.8;
+        margin-bottom: 20px;
+      }
+
+      .highlight {
+        color: #facc15;
+        font-weight: bold;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 0.9rem;
+        color: #d1d5db;
+      }
+
+      @keyframes popIn {
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }

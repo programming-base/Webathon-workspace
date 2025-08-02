@@ -1,0 +1,56 @@
+
+.container {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 40px;
+  border: 3px solid #facc15;
+  border-radius: 20px;
+  background-color: transparent;
+  animation: popIn 0.8s ease-out forwards;
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.container h1  {
+  text-align: center;
+  font-size: 3rem;
+  color: #facc15;
+  margin-bottom: 40px;
+}
+
+.reason {
+  margin-bottom: 30px;
+  padding: 20px;
+  border-left: 4px solid #facc15;
+  background-color: rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.reason:hover {
+  transform: scale(1.03);
+}
+
+.reason-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #facc15;
+  margin-bottom: 10px;
+}
+
+.reason-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #d1d5db;
+}
+
+@keyframes popIn {
+  to {
+    opacity: 1;
+    transform:scale(1);
+}}
